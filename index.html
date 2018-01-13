@@ -13,7 +13,7 @@
 
     <nav class="navbar navbar-toggleable navbar-inverse bg-inverse fixed-top">
 
-        <ul class="navbar-nav">
+        <ul class="navbar-nav mr-auto">
           <li class="nav-item">
             <a class="navbar-brand" href="#"> DemoApp </a>
           </li>
@@ -27,11 +27,15 @@
               <a class="nav-link" href="#">Link 3</a>
             </li>
           </ul>
-          <div class="justify-content-end">
-              <input type="email" class="form-control" id="emailInput" placeholder="Enter E-mail">
-              <input type="password" class="form-control" id="passwordInput" placeholder="Enter Password">
-
-          </div>
+          <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <input type="email" class="form-control" id="emailInput" placeholder="Enter E-mail">
+                </li>
+                <li class="nav-item">
+                  <input type="password" class="form-control" id="passwordInput" placeholder="Enter Password">
+                </li>
+                <a class="btn btn-success btn-m" href="#" role="button"> Login </a>
+          </ul>
 
 
   </nav>
@@ -43,7 +47,7 @@
     <hr class="my-4">
     <p> Sign up for our mailing list! </p>
 
-    <form class="form-inline" id="nav-inputs">
+    <form class="form-inline">
       <input type="email" class="form-control" id="emailInput" placeholder="Enter E-mail">
       <a class="btn btn-primary btn-m" href="#" role="button"> Sign Up </a>
     </form>
