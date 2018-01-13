@@ -3,5 +3,9 @@ body{
 }
 
 #main-content {
-  margin-top: 100px;
+  margin-top: 1rem;
+}
+
+#call {
+  margin-top: 2rem;
 }
