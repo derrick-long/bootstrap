@@ -1,3 +1,5 @@
+
+
 body{
   position: relative;
 }
@@ -8,4 +10,15 @@ body{
 
 #call {
   margin-top: 2rem;
+}
+
+#mail_icon {
+  font-size: 2.8rem;
+}
+
+
+
+
+.input_button {
+  margin-left: .5rem;
 }

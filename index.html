@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
   </head>
 
   <body data-spy="scroll" data-target="#demo_nav">
@@ -34,7 +35,7 @@
                 <li class="nav-item">
                   <input type="password" class="form-control" id="passwordInput" placeholder="Enter Password">
                 </li>
-                <a class="btn btn-success btn-m" href="#" role="button"> Login </a>
+                <a class="btn btn-primary btn-m input_button" href="#" role="button"> Login </a>
           </ul>
 
 
@@ -49,11 +50,16 @@
     <p> Sign up for our mailing list! </p>
 
     <form class="form-inline">
-      <input type="email" class="form-control" id="emailInput" placeholder="Enter E-mail">
-      <a class="btn btn-primary btn-m" href="#" role="button"> Sign Up </a>
-    </form>
 
-  </div>
+      <div id="mail_icon">
+        <span class="far fa-address-card" id="mail_icon"> </span>
+      </div>
+
+      <input type="email" class="form-control" id="emailInput" placeholder="Enter E-mail">
+      <a class="btn btn-primary btn-m input_button" href="#" role="button"> Sign Up </a>
+    </div>
+
+  </form>
 
   <div class="container" id="main-content">
 
