@@ -4,19 +4,15 @@ body{
   position: relative;
 }
 
-#main-content {
-  margin-top: 1rem;
-}
 
-#call {
+
+#home {
   margin-top: 2rem;
 }
 
 #mail_icon {
   font-size: 2.8rem;
 }
-
-
 
 
 .input_button {
