@@ -8,6 +8,8 @@ body{
 
 #home {
   margin-top: 2rem;
+  background-image: url(snow_background.jpg);
+  background-size: cover;
 }
 
 #mail_icon {
