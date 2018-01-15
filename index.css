@@ -4,6 +4,13 @@ body{
   position: relative;
 }
 
+span {
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    width: 45px;
+}
+
 
 
 #home {
@@ -14,6 +21,9 @@ body{
 
 #mail_icon {
   font-size: 2.8rem;
+  background-color: white;
+  padding: none;
+  margin: none;
 }
 
 
