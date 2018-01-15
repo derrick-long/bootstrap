@@ -12,7 +12,6 @@ span {
 }
 
 
-
 #home {
   margin-top: 2rem;
   background-image: url(snow_background.jpg);
@@ -29,4 +28,12 @@ span {
 
 .input_button {
   margin-left: .5rem;
+}
+
+.card {
+  font-family: 'Poppins';
+}
+
+.form-control {
+  margin-left: 1rem;
 }
